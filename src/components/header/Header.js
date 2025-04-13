@@ -7,7 +7,7 @@ function Header() {
       
         <header>
           <div className="navbar-container">
-      Name      <div className="container d-flex justify-content-between align-items-center">
+        <div className="container d-flex justify-content-between align-items-center">
               <h2 className="logo">Next1Code</h2>
               <nav className="navbar">
                 <ul className="d-flex">
