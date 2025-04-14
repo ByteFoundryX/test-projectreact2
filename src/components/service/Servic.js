@@ -2,6 +2,36 @@ import './Servic.css';
 import Servicitem from './Servicitem';  
 
 function Servic() {
+ 
+
+     let servic =[
+      {
+        icon : 'bi bi-briefcase',
+        title : 'web1',
+        dis : ' adipisci eaque autem fugiat! Quia, provident vitae! Magnihjhjfhjhjghj',
+
+
+      },
+
+         {
+        icon : 'bi bi-briefcase',
+        title : 'web1',
+        dis : ' adipisci eaque autem fugiat! Quia, provident vitae! Magni',
+
+
+      },
+
+      {
+        icon : 'bi bi-briefcase',
+        title : 'web1',
+        dis : ' adipisci eaque autem fugiat! Quia, provident vitae! Magni',
+
+
+      },
+     ];
+
+
+
 
     return(
         <section id="services">
@@ -14,12 +44,10 @@ function Servic() {
             </div>
             <div className="row">
               
-              <Servicitem/>
-              <Servicitem/>
-              <Servicitem/>
-              <Servicitem/>
-              <Servicitem/>
-              <Servicitem/>
+              <Servicitem {...servic[0]}/>
+              <Servicitem {...servic[1]}/>
+              <Servicitem {...servic[2]}/>
+          
 
             </div>
           </div>
